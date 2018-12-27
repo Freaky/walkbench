@@ -36,8 +36,8 @@ FastFind:  4.11s  4s     3.74s  3.46s  3.77s [ avg best 4:  3.74s ]
 (Manually aligned for readability)
 
 
-ignore: https://crates.io/crates/ignore
-walkdir: https://crates.io/crates/walkdir
-find: https://ruby-doc.org/stdlib-2.6/libdoc/find/rdoc/Find.html
-fast_find: https://rubygems.org/gems/fast_find
-freshbsd: https://freshbsd.org
+[ignore]: https://crates.io/crates/ignore
+[walkdir]: https://crates.io/crates/walkdir
+[find]: https://ruby-doc.org/stdlib-2.6/libdoc/find/rdoc/Find.html
+[fast_find]: https://rubygems.org/gems/fast_find
+[freshbsd]: https://freshbsd.org
