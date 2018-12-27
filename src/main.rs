@@ -31,7 +31,7 @@ macro_rules! bench {
 fn main() -> Result<(), String> {
     let dir = std::env::args_os().nth(1).ok_or_else(|| {
         format!(
-            "Usage: {} [path [path [...]]]",
+            "Usage: {} [path]",
             std::env::args().nth(0).expect("WHAT AM I?!")
         )
     })?;
