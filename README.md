@@ -31,6 +31,12 @@ walkdir: 9.13s 9.13s 9.10s 9.13s 9.11s [avg best 4: 9.12s]
     Find: 24.68s 23.42s 22.99s 22.89s 22.87s [ avg best 4: 23.04s ]
 FastFind:  4.11s  4s     3.74s  3.46s  3.77s [ avg best 4:  3.74s ]
 2:19.95 real, 1:44.57 user, 3:22.52 sys
+
+-% rbenv local 2.5.3
+-% ruby walkbench.rb /cvs/openbsd
+    Find: 13.23s 13.29s 13.17s 13.17s 13.22s [ avg best 4: 13.2s ]
+FastFind: 16.43s 15.34s 16.1s  15.4s  15.8s  [ avg best 4: 15.66s ]
+2:25.34 real, 1:11.90 user, 1:47.09 sys
 ```
 
 (Manually aligned for readability)
